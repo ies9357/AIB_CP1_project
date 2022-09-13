@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    
+        <style>
+            @media print{
+                #header, .sub_visual, .utility_wrap, footer, .btn_wrap {display:none}
+                .contents {padding:0}
+            }
+        </style>
+        
+    </head>
+
+<body>
+    <h1 class="display-5 fw-bolder text-black mb-5" style="text-align:center">진단결과(의사)</h1>
+    <form>
+        <hr>
+        <h3 style="text-align:center">~~한 요인으로 흑색종일 확률이 높아보입니다.</h3>
+        <br>
+        <!-- <center><textarea id="box" name="box" rows=5 cols=87></textarea></center> -->
+        <!-- <center><button type="button" class="btn btn-primary">아니오</button></center> -->
+        <hr>
+        <h3 style="text-align:center">의사가 확인 뒤에 소견서를 작성하고 문자를 보낼 예정이며,<br>의사 선생님이 17시 전까지 전화 예정입니다.
+                    <br><br>
+                    연세 세브란스 병원 홍길동 전문의<br><br>- 주소 : 서울시 에스구 디자인로 123<br>- 연락처 : 010-2345-5636<br>- E-mail: you@gmail.com
+            </h3>
+        <br>
+        <center>
+            <a class="btn btn-primary btn-lg px-4 me-sm-3" href="javascript:window.print();">진단서 출력</a>
+            <!-- <a href="javascript:window.print();">인쇄</a> -->
+            <a class="btn btn-primary btn-lg px-4 me-sm-3" href="/review">후기 등록</a>
+        </center>    
+    </form>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
